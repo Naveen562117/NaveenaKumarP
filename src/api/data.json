@@ -1,0 +1,90 @@
+{
+  "_id": 1,
+  "names": "Naveen Kumar",
+  "surnames": "P",
+  "profession": "Developer",
+  "location": "Banglore, India",
+  "email": "ns562117@gmail.com",
+  "phone": "+91 8884796108",
+  "skills": [
+    {
+      "skill_name": "React Native",
+      "skill_pctg": 90
+    },
+    {
+      "skill_name": "React JS",
+      "skill_pctg": 80
+    },
+    {
+      "skill_name": "AWS EC2 & S3 and services",
+      "skill_pctg": 75
+    },
+    {
+      "skill_name": "Python Django",
+      "skill_pctg": 40
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "lang_pctg": 80
+    },
+    {
+      "language": "Kannada",
+      "lang_pctg": 100
+    },
+    {
+      "language": "Hindhi",
+      "lang_pctg": 70
+    }
+  ],
+  "work_experiences": [
+    {
+      "job_title": "Front End Developer",
+      "company": "w3schools.com",
+      "start_date": "Jan 2015",
+      "end_date": "Current",
+      "job_description": [
+        " "
+      ]
+    },
+    {
+      "job_title": "Web Developer",
+      "company": "something.com",
+      "start_date": "Mar 2012",
+      "end_date": "Dec 2014",
+      "job_description": [
+        " "
+      ]
+    },
+    {
+      "job_title": "Graphic Designer",
+      "company": "designsomething.com",
+      "start_date": "Jun 2010",
+      "end_date": "Mar 2012",
+      "job_description": [
+        " "
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "W3Schools.com",
+      "start_date": "Jan 2015",
+      "end_date": "Forever",
+      "degree": "Web Development! All I need to know in one place"
+    },
+    {
+      "institution": "London Business School",
+      "start_date": "2013",
+      "end_date": "2015",
+      "degree": "Master Degree"
+    },
+    {
+      "institution": "School of Coding",
+      "start_date": "2010",
+      "end_date": "2013",
+      "degree": "Bachelor Degree"
+    }
+  ]
+}
