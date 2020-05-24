@@ -4,7 +4,7 @@
 
 body {
   background-color: #f1f1f1;
-  color: #757575;
+  color: black;
   font-family: "Roboto", sans-serif;
   font-size: 15px;
   line-height: 1.5;
@@ -36,7 +36,7 @@ h6 {
 }
 
 i {
-  color: #009688;
+  color: chocolate;
 }
 
 hr {
@@ -60,13 +60,14 @@ hr {
   font-size: 36px;
 }
 
-.app {
-  margin-top: 16px;
-  padding: 0 8px;
+.app { 
+  padding: 16px;
+  background-color: blanchedalmond;
+  
 }
 
 .app__profile, .app__formation div {
-  background-color: #fff;
+  background-color: burlywood;
 }
 
 .app__profile {
@@ -88,7 +89,7 @@ hr {
 
 .profile__name {
   bottom: 0;
-  color: black;
+  color: chocolate;
   font-weight: 400;
   left: 0;
   position: absolute;
@@ -104,7 +105,7 @@ hr {
 }
 
 .pctg__front {
-  background-color: #009688;
+  background-color: chocolate;
   border-radius: 16px;
   color: #fff;
   font-size: 12px;
@@ -131,11 +132,11 @@ hr {
 }
 
 .app__exp h6, .app__ed h6 {
-  color: #009688;
+  color: chocolate;
 } 
 
 .current-tag, .style-select {
-  background-color: #009688;
+  background-color: chocolate;
   border-radius: 4px;
   color: #fff;
   display: inline-block;
@@ -144,14 +145,15 @@ hr {
 }
 
 .footer {
-  background-color: #009688;
+  background-color: chocolate;
   color: #fff;
   text-align: center;
 }
 
 .footer .fa{
   color: inherit;
-  margin: 0 1.85px;
+  margin: 30px;
+  height: 20px;
 }
 
 .footer a{

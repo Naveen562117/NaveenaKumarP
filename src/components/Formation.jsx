@@ -18,6 +18,16 @@ class Formation extends Component {
               return (<Experience experience={experience} key={"experience_" + index} id={"experience_" + index} i={index} total={filteredExperiences.length} />)
             })}
         </div>
+        <div className="app__experiences container">
+          <h2>
+            <i className="fa fa-suitcase fa-fw fa--36"></i>
+            Work Experience
+            </h2>
+          {filteredExperiences
+            .map((experience1, index) => {
+              return (<Experience experience={experience1} key={"experience_" + index} id={"experience_" + index} i={index} total={filteredExperiences.length} />)
+            })}
+        </div>
         <div className="app__education container">
           <h2>
             <i className="fa fa-certificate fa-fw fa--36"></i>
@@ -28,6 +38,17 @@ class Formation extends Component {
               return (<Education education={education} key={"education" + index} id={"education" + index} i={index} total={filteredEducation.length} />)
             })}
         </div>
+        <div className="app__education container">
+          <h2>
+            <i className="fa fa-certificate fa-fw fa--36"></i>
+            Education
+            </h2>
+          {filteredEducation
+            .map((education1, index) => {
+              return (<Education education={education1} key={"education" + index} id={"education" + index} i={index} total={filteredEducation.length} />)
+            })}
+        </div>
+        
       </section>
     );
   }
