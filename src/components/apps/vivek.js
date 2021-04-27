@@ -223,7 +223,7 @@ function Projects() {
         {
             name: "economist.com Unlocked",
             date: "Mar 2021",
-            link: "https://github.com/vivek9patel/economist.com-unlocked",
+            link: "https://github.com/NaveenKumarP/economist.com-unlocked",
             description: [
                 "A chrome extension to read Paid Articles for Free & with no Ads, no subscription, no memberships!",
             ],
@@ -232,7 +232,7 @@ function Projects() {
         {
             name: "Flutter banking app",
             date: "Jan 2021",
-            link: "https://github.com/vivek9patel/flutter-banking-app",
+            link: "https://github.com/NaveenKumarP/flutter-banking-app",
             description: [
                 "A Flutter & Firebase project for creating transactions between different Users and displaying the history of transactions done by all.",
             ],
@@ -241,7 +241,7 @@ function Projects() {
         {
             name: "CPU scheduling application",
             date: "Dec 2020",
-            link: "https://github.com/vivek9patel/CPU-Scheduling-APP-React-Native",
+            link: "https://github.com/NaveenKumarP/CPU-Scheduling-APP-React-Native",
             description: [
                 "React Native Application to visualize the CPU Scheduling algorithms with different Processes and Animations with gannt chart.",
             ],
@@ -250,7 +250,7 @@ function Projects() {
         {
             name: "Meditech Healthcare WebApp",
             date: "Nov 2020",
-            link: "https://github.com/vivek9patel/Meditech-Healthcare",
+            link: "https://github.com/NaveenKumarP/Meditech-Healthcare",
             description: [
                 "Developed Web Application to predict and diagnose diseases from x-ray images.",
             ],
@@ -259,7 +259,7 @@ function Projects() {
         {
             name: "Problem Recommendation System",
             date: "Sep 2020",
-            link: "https://github.com/vivek9patel/Improve-Codeforces",
+            link: "https://github.com/NaveenKumarP/Improve-Codeforces",
             description: [
                 "Django web application to suggest practice problems from the areas in which the user struggles to get pass in code-forces.",
             ],
@@ -268,7 +268,7 @@ function Projects() {
         {
             name: "Cleanliness Automation",
             date: "Dec 2019",
-            link: "https://github.com/vivek9patel/CPU-Scheduling-APP-React-Native",
+            link: "https://github.com/NaveenKumarP/CPU-Scheduling-APP-React-Native",
             description: [
                 "Developed Web Applications to automate Garbage collection and extraction systems for SSIP hackathon",
             ],
