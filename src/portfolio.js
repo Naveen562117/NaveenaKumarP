@@ -5,26 +5,26 @@ import github from './assets/img/icons/common/github.svg'
 import airbnb from './assets/img/icons/common/airbnbLogo.png'
 
 export const greetings = {
-    "name": "Hanzla Tauqeer",
-    "title": "Hi all, I'm Hanzla",
-    "description": "A passionate Full Stack Web Developer and Mobile App Developer having an experience of building Web applications with JavaScript / Reactjs / Nodejs / Python / Django / Flask and some other cool libraries and frameworks and Cross Platform Mobile Apps With Flutter.",
-    "resumeLink": "https://cv.hanzla.ga"
+    "name": "Naveena Kumar P",
+    "title": "Hi all, I'm Naveen",
+    "description": "A passionate Web Developer and Mobile App Developer having an experience of building Web applications with JavaScript / Reactjs / Nodejs / Python / Django  and some other cool libraries and frameworks and Cross Platform Mobile Apps With React Native.",
+    "resumeLink": "https://drive.google.com/file/d/1cRXhMUMh-MGgRl0HVnnGd6fSIZU3lV3D/view?usp=sharing"
 }
 
 export const openSource = {
-  githubUserName: '1hanzla100',
+  githubUserName: 'Naveen562117',
 };
 
 export const contact = {
-  
+  phone : '+91 8884796108'
 }
 
 export const socialLinks = {
-    "facebook": "https://www.facebook.com/1hanzla100",
-    "instagram": "https://www.instagram.com/1hanzla100",
-    "twitter": "https://twitter.com/1hanzla100",
-    "github": "https://github.com/1hanzla100",
-    "linkedin": "https://www.linkedin.com/in/hanzla-tauqeer-0869281ba/"
+    "facebook": "https://www.facebook.com/ns562117/",
+    "instagram": "https://www.instagram.com/night_fury_rider_/",
+    "twitter": "https://twitter.com/navi_appu",
+    "github": "https://github.com/Naveen562117",
+    "linkedin": "https://www.linkedin.com/in/ns562117/"
 }
 
 export const skillsSection = {
@@ -33,10 +33,12 @@ export const skillsSection = {
     skills: [
       emoji(
         '⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications'
-      ),
-      emoji('⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks'),
+      ), 
       emoji(
-        '⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean'
+        '⚡ Integration of third party services such as Firebase / AWS EC2 Django Server Hosting and management'
+      ),
+      emoji(
+        '⚡ Integration Backend API, Websockets for Chat app and more'
       ),
     ],
     
@@ -70,24 +72,8 @@ export const skillsSection = {
         fontAwesomeClassname: 'logos:nodejs-icon',
       },
       {
-        skillName: 'flutter',
-        fontAwesomeClassname: 'logos:flutter',
-      },
-      {
-        skillName: 'swift',
-        fontAwesomeClassname: 'vscode-icons:file-type-swift',
-      },
-      {
         skillName: 'npm',
         fontAwesomeClassname: 'vscode-icons:file-type-npm',
-      },
-      {
-        skillName: 'sql-database',
-        fontAwesomeClassname: 'vscode-icons:file-type-sql',
-      },
-      {
-        skillName: 'mongoDB',
-        fontAwesomeClassname: 'vscode-icons:file-type-mongo',
       },
       {
         skillName: 'aws',
@@ -104,11 +90,7 @@ export const skillsSection = {
       {
         skillName: 'git',
         fontAwesomeClassname: 'logos:git-icon',
-      },
-      {
-        skillName: 'docker',
-        fontAwesomeClassname: 'logos:docker-icon',
-      },
+      } 
     ],
 }
 
@@ -148,15 +130,7 @@ export const educationInfo = [
         'Lorem ipsum dolor sit amet, consectetfgur adipiscing elit',
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
       ],
-    },
-    {
-      schoolName: 'Stanford University',
-      subHeader: 'Bachelor of Science in Computer Science',
-      duration: 'September 2013 - April 2017',
-      desc:
-        'Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...',
-      descBullets: ['Lorem ipsum dolorfdg sit amet, consectetur adipiscing elit'],
-    },
+    } 
 ]
 
 export const experience = [
