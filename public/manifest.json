@@ -1,20 +1,21 @@
 {
-  "short_name": "NaveenKumarP Portfolio",
-  "name": "NaveenKumarP Personal Portfolio Website",
-  "icons": [
-    {
-      "src": "./images/logos/fevicon.svg",
-      "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/png"
-    },
-    {
-      "src": "./images/logos/logo.png",
-      "type": "image/png",
-      "sizes": "128x128"
-    }
-  ],
-  "start_url": ".",
+  "short_name": "Portfolio",
+  "name": "Hanzla's Portfolio",
+  "description": "A passionate Full Stack Web Developer and Mobile App Developer.",
+    "icons": [
+      {
+        "src": "./favicon.png",
+        "type": "image/png",
+        "sizes": "192x192"
+      },
+      {
+        "src": "./favicon.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      }
+    ],
+  "start_url": "./index.html",
   "display": "standalone",
-  "theme_color": "#E95420",
-  "background_color": "#ffffff"
+  "theme_color": "#11cdef",
+  "background_color": "#11cdef"
 }

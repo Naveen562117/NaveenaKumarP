@@ -1,62 +1,100 @@
-# To run this on localhost
+# developer-portfolio <a href="https://github.com/1hanzla100/developer-portfolio/blob/main/LICENSE"><img alt="GitHub license" src="https://img.shields.io/github/license/1hanzla100/developer-portfolio"></a><a href="https://github.com/1hanzla100/developer-portfolio/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues/1hanzla100/developer-portfolio"></a><a href="https://github.com/1hanzla100/developer-portfolio/network"><img alt="GitHub forks" src="https://img.shields.io/github/forks/1hanzla100/developer-portfolio"></a> <a href="https://github.com/1hanzla100/developer-portfolio/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/1hanzla100/developer-portfolio"></a> 
+## Software Developer Portfolio Template built with react.js bootstrap that helps you showcase your work and skills as a software developer.
 
-- Make _.env_ file in root folder
-<!-- to get api keys -->
+<p align="center">
+  <kbd>
+    <img src="https://github.com/1hanzla100/developer-portfolio/blob/master/picture.PNG"></img>
+  </kbd>
+</p>
 
-### Get API keys from emailjs
+### To view a live example, **[click here](https://developer-portfolio.1hanzla100.vercel.app/)**.
 
-- Get your apis from [emailjs](https://www.emailjs.com/).
-  follow this [docs](https://www.emailjs.com/docs)
-- inside that file you need to declare your api keys for _emailjs_, below is the sample code
-- your api keys will be here: [page](https://dashboard.emailjs.com/admin/integration)
-<!-- to get google analytics tracking id -->
+Just Edit `src/portfolio.js` to get your personal portfolio. Feel free to use it as-is or customize it as much as you want.
 
-### Get Tracking ID from google analytics
+But if you want to **contribute** and make this much better for other developer have a look at [Issues](https://github.com/1hanzla100/developer-portfolio/issues).
 
-- follow this [docs](https://support.google.com/analytics/answer/10269537?ref_topic=1009620) to get your Tracking ID
-- add your keys to .env file just like below given template.
+
+If you created something awesome and want to contribute then feel free to open an [pull request](https://github.com/1hanzla100/developer-portfolio/pulls).
+
+## Table of Contents
+- [Sections](#sections)
+- [Getting Started](#getting-started)
+- [How to Use](#how-to-use)
+- [Linking portfolio to Github](#linking-portfolio-to-github)
+- [Change and Customize](#change-and-customize-every-section-according-to-your-need)
+- [Technologies Used](#technologies-used)
+- [Illustrations](#illustrations)
+- [For the Future](#for-the-future)
+- [Contributors](#project-maintainers)
+
+## Sections
+✔️ Summary and About me\
+✔️ Skills\
+✔️ Education\
+✔️ Work Experience\
+✔️ Projects\
+✔️ Github Profile
+
+
+
+
+## Getting Started
+
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+
+You'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer.
 
 ```
+node@v10.16.0 or higher
+npm@6.9.0 or higher
+git@2.17.1 or higher
+```
+## How To Use 
 
-REACT_APP_TRACKING_ID = "GOOGLE_ANALYTICS_TRACKING_ID"
-REACT_APP_USER_ID = 'YOUR_USER_ID'
-REACT_APP_TEMPLATE_ID = 'YOUR_TEMPLATE_ID'
-REACT_APP_SERVICE_ID = 'YOUR_SERVICE_ID'
+From your command line, clone and run developerFolio:
 
+```bash
+# Clone this repository
+$ git clone https://github.com/1hanzla100/developer-portfolio.git
+
+# Go into the repository
+$ cd developer-portfolio
+
+# Install dependencies
+$ npm install
+
+#Start's development server
+$ npm start
 ```
 
-# Getting Started with Create React App
+## Linking Portfolio to Github
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+```javascript
+  // portfolio.js
+  githubUserName: 'YOUR GITHUB USERNAME HERE',
+```
 
-## Available Scripts
+#### Using Emojis
 
-In the project directory, you can run:
+For adding emoji 😃 into the texts in `Portfolio.js`, use the `emoji()` function and pass the text you need as an argument. This would help in keeping emojis compatible across different browsers and platforms.
 
-### `npm start`
+## Technologies Used 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- [React](https://reactjs.org/)
+- [axios](https://www.npmjs.com/package/axios)
+- [reactstrap](https://reactstrap.github.io/)
+- [react-reveal](https://www.react-reveal.com/)
+- [react-lottie](https://www.npmjs.com/package/react-lottie)
+- [react-easy-emoji](https://github.com/appfigures/react-easy-emoji)
+- [react-headroom](https://github.com/KyleAMathews/react-headroom)
+- [color-thief](https://github.com/lokesh/color-thief)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Illustrations
+- [Lottie File Source](https://lottiefiles.com)
 
-### `npm run build`
+## For the Future
+If you can help us with these. Please don't hesitate to open a [pull request](https://github.com/saadpasta/developerFolio/pulls).
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Enable Dark Mode
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-## Contributing
-
-Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributiors who wants to make this website better can make contribution,which will be **greatly appreciated**.
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Added some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+- Add More Sections
